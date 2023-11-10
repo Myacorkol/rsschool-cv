@@ -22,3 +22,27 @@ Working in sales, I got a job in a small IT company as a project manager and I b
 
 In 2018, I started studying website development in my free time, and in 2022 I changed my profession and now I am an active site and application support manager
 ***
+### Skills and Proficiency:
+- HTML5, CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code
+- Gulp
+- Adobe Photoshop, Figma
+
+***
+
+### Progects:
+https://myacorkol.github.io/mavic/
+https://myacorkol.github.io/GoTrip/
+https://myacorkol.github.io/cutspace/
+https://myacorkol.github.io/desire/
+https://myacorkol.github.io/Bike-onePage-site/
+https://myacorkol.github.io/gulpbuild1/
+
+***
+
+### Languages:
+-Russian - Native
+
+-English - A2 (Elemetntary)
