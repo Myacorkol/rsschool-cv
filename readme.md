@@ -1,1 +1,1 @@
-https://myacorkol.github.io/rsschool-cv/
+https://Myacorkol.github.io/rsschool-cv/
