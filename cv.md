@@ -7,8 +7,8 @@
 Phone: +7 705 814 22 15  
 E‑mail: ivan.tyapkin78@gmail.com  
 Telegram: @gemstonasia  
-[LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/ivan-tyapkin-29638425a/))  
-[My site]([https://www.linkedin.com](https://myacorkol.github.io/gemstonasia/))
+[LinkedIn](https://www.linkedin.com/in/ivan-tyapkin-29638425a/)  
+[My site](https://myacorkol.github.io/gemstonasia/)
 
 ---
 
