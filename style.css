@@ -281,6 +281,12 @@ section {
     background-color: rgba(0, 0, 0, .6);
     z-index: 1;
 }
+/* EDUCATION */
+.education {
+    padding: 4rem 0;
+    background-color: var(--white);
+    color: var(--Bg-dark);
+}
 /* FOOTER */
 .footer {
     padding: 4rem 0;
