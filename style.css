@@ -52,6 +52,7 @@ section {
 }
 .title {
     font-size: 6rem;
+    font-weight: 300;
 }
 /* LINKS */ 
 .link {
@@ -82,6 +83,19 @@ section {
     justify-content: space-between;
     gap: 4rem;
 }
+/* SECTION-LINE */ 
+.section-line {
+    padding: 4rem 0;
+    background-color: var(--white);
+    color: var(--Bg-dark);
+}
+
+.section-line__list {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /* INTRO */ 
 .intro__inner {
     display: flex;
@@ -98,6 +112,51 @@ section {
 }
 .text-col {
     color: var(--Font-gold);
+}
+/* Custom links */ 
+.custom-link {
+    position: relative;
+    padding-left: 3rem;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.icon-linkedInn::before {
+    background-image: url('./img/svg/link-icon.svg');
+}
+.icon-facebook::before {
+    background-image: url('./img/svg/fb-icon.svg');
+}
+.icon-telegram::before {
+    background-image: url('./img/svg/tg-icon.svg');
+}
+.icon-gmail::before {
+    background-image: url('./img/svg/gmail-icon.svg');
+}
+.icon-github::before {
+    background-image: url('./img/svg/github-logo.svg');
+}
+.icon-rs::before {
+    background-image: url('./img/svg/rss-logo.svg');
+}
+.icon-html::before {
+    background-image: url('./img/svg/html.svg');
+}
+.icon-css::before {
+    background-image: url('./img/svg/css.svg');
+}
+.icon-js::before {
+    background-image: url('./img/svg/javascript.svg');
+}
+.icon-ts::before {
+    background-image: url('./img/svg/ts-icon.svg');
 }
 /* ABOUT */ 
 .about__inner {
@@ -118,20 +177,7 @@ section {
     margin-right: 10rem;
 }
 
-/* CONTACTS */ 
-.contacts {
-    padding: 4rem 0;
-    background-color: var(--white);
-    color: var(--Bg-dark);
-}
-
-.contacts__list {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-/* SKILLS */ 
+/* SKILLS */
 .skills {
     padding: 4rem 0;
     background-color: var(--white);
@@ -143,4 +189,46 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* WORKS */ 
+.work-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem 0;
+}
+.work-cards__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    max-width: 80%;
+    height: 60rem;
+}
+.work-cards__content {
+    padding: 2rem;
+}
+.work-cards__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+/* FOOTER */
+.footer {
+    padding: 4rem 0;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__links {
+    display: flex;
+    gap: 2rem;
 }
