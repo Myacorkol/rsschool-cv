@@ -37,9 +37,6 @@ body{
     background-color: var(--Bg-dark);
     color: var(--white);
 }
-button {
-    cursor: pointer;
-}
 section {
     margin-top: 4rem;
 }
@@ -68,6 +65,23 @@ section {
 }
 .link.active {
     color: var(--active);
+}
+/* BUTTONS */ 
+.button {
+    font-size: 2rem;
+    display: inline-flex;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.09em;
+    padding: 1rem 2rem;
+    background-color: var(--Font-gold);
+    color: var(--white);
+    transition: .5s;
+    border-radius: .9rem;
+}
+.button:hover {
+    background-color: var(--white);
+    color: var(--Font-gold);
 }
 /* HEADER */ 
 .header {
@@ -155,8 +169,18 @@ section {
 .icon-js::before {
     background-image: url('./img/svg/javascript.svg');
 }
-.icon-ts::before {
-    background-image: url('./img/svg/ts-icon.svg');
+.icon-eng::before {
+    background-image: url('./img/svg/english.svg');
+}
+.icon-codevars::before {
+    background-image: url('./img/svg/codewars.svg');
+    height: 2.7rem;
+}
+.icon-freecodecamp::before {
+    background-image: url('./img/svg/freecodecamp.svg');
+}
+.icon-youtube::before {
+    background-image: url('./img/svg/youtube.svg');
 }
 /* ABOUT */ 
 .about__inner {
@@ -176,7 +200,10 @@ section {
     width: 40rem;
     margin-right: 10rem;
 }
-
+/* Contacts */
+.code-sample {
+    margin-top: 6rem;
+}
 /* SKILLS */
 .skills {
     padding: 4rem 0;
@@ -193,31 +220,66 @@ section {
 /* WORKS */ 
 .work-cards {
     display: flex;
-    flex-direction: column;
     gap: 4rem;
+    align-items: center;
     padding: 4rem 0;
 }
 .work-cards__item {
+    position: relative;
+    max-width: 48%;
+    height: 38rem;
+    border-radius: .8rem;
+    border: .3rem solid var(--Font-gold);
+
+    background-size: cover;
+    background-position: center;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    position: relative;
-    max-width: 80%;
-    height: 60rem;
 }
+.first-project {
+    background-image: url('./img/project1.png');
+}
+.second-project {
+    background-image: url('./img/project2.png');
+}
+.third-project {
+    background-image: url('./img/project3.png')
+}
+
 .work-cards__content {
+    position: relative;
     padding: 2rem;
+    z-index: 2;
+    max-width: 50rem;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-.work-cards__img {
+.work-cards__title {
+    font-size: 3rem;      
+    font-weight: 300;       
+    margin-bottom: 1rem;    
+}
+.work-cards__text {
+    font-size: 2rem;      
+    font-weight: 400;       
+    margin-bottom: 2rem; 
+}
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
     width: 100%;
     height: 100%;
-    opacity: .5;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 1;
 }
 /* FOOTER */
 .footer {
