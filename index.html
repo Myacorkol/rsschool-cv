@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favi/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favi/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favi/favicon-16x16.png">
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header class="header">
@@ -19,8 +19,8 @@
           <span>Ivan.</span>
         </a>
         <ul class="nav">
-          <li class="nav__link"><a class="link" href="#about">about me</a></li>
           <li class="nav__link"><a class="link" href="#contacts">contacts</a></li>
+          <li class="nav__link"><a class="link" href="#about">about me</a></li>
           <li class="nav__link"><a class="link" href="#skills">skills</a></li>
           <li class="nav__link"><a class="link" href="#works">works</a></li>
           <li class="nav__link"><a class="link" href="#education">education</a></li>
@@ -35,11 +35,11 @@
             <div class="intro__box">
               <h1 class="intro__title">Hello, I'm Ivan — <span class="text-col">Junior Frontend Developer</span></h1>
             </div>
-            <img src="./img/me.png" alt="me">
+            <img class="intro__img" src="./img/me.png" alt="me">
           </div>
         </div>
       </section>
-      <section class="contacts section-line">
+      <section class="contacts section-line" id="contacts">
         <div class="container">
         <h2 class="title contacts__title">Contact <span class="text-col">me</span></h2>
           <ul class="contacts__list section-line__list">
@@ -58,21 +58,14 @@
           </ul>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2 class="about__title title">Briefly <span class="text-col">About Myself</span></h2>
           <div class="about__inner">
             <div class="about__text">
-                        <p>
-              Having started my career as a customer manager in a sales company
-              with minimal skills, I grew into a sales team leader within the
-              same company. My growing interest in creating web pages led me to
-              a position as a Technical Support Manager in an IT company, where
-              I continued self-learning and exploring web technologies.
-            </p>
             <p>I strive to maintain a healthy balance between my work, athletic pursuits, and personal interests. An avid runner, I’ve completed more than a dozen amateur races and continue to challenge myself with new distances. I’m passionate about travel—especially throughout Asia—where I’ve gained valuable cultural insights and adaptability. Equally important to me is the continual development of my soft skills, as I believe that building strong relationships and communicating effectively are just as critical as writing clean, efficient code.</p>
             <p>
-              Since then, I’ve been working remotely, which gives me more
+              Nowdays i work remotely, which gives me more
               flexibility and time to focus on professional development. I’m
               currently studying Frontend Development and find it inspiring
               because of its creative nature and endless potential for growth.
@@ -85,7 +78,6 @@
             <div class="about__img">
               <img src="./img/about.jpg" alt="about">
             </div>
-          </div>
           </div>
         </div>
       </section>
@@ -120,7 +112,7 @@ greet('Ivan');
         </div>
       </section>
 
-      <section class="works">
+      <section class="works" id="works">
         <div class="container">
           <h2 class="about__title title">your project <span class="text-col">could be here</span></h2>
           <ul class="work-cards">
@@ -152,7 +144,7 @@ greet('Ivan');
         </div>
       </section>
 
-      <section class="education">
+      <section class="education" id="education">
         <div class="container">
         <h2 class="title skills__title">My <span class="text-col">Education</span></h2>
           <ul class="contacts__list section-line__list">
