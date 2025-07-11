@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favi/favicon-16x16.png">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+        <a class="logo" href="#">
+          <span>Ivan.</span>
+        </a>
+        <ul class="nav">
+          <li class="nav__link"><a class="link" href="#contacts">contacts</a></li>
+          <li class="nav__link"><a class="link" href="#about">about me</a></li>
+          <li class="nav__link"><a class="link" href="#skills">skills</a></li>
+          <li class="nav__link"><a class="link" href="#works">works</a></li>
+          <li class="nav__link"><a class="link" href="#education">education</a></li>
+        </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <div class="intro__box">
+              <h1 class="intro__title">Hello, I'm Ivan — <span class="text-col">Junior Frontend Developer</span></h1>
+            </div>
+            <img class="intro__img" src="./img/me.png" alt="me">
+          </div>
+        </div>
+      </section>
+      <section class="contacts section-line" id="contacts">
+        <div class="container">
+        <h2 class="title contacts__title">Contact <span class="text-col">me</span></h2>
+          <ul class="contacts__list section-line__list">
+            <li class="contacts__list-item">
+              <a class="custom-link icon-linkedInn" href="https://www.linkedin.com/in/ivan-tyapkin-29638425a/" target="_blank">LinkedInn</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="custom-link icon-facebook" href="https://web.facebook.com/profile.php?id=100091840145814" target="_blank">Facebook</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="custom-link icon-telegram" href="https://t.me/gemstonasia" target="_blank">Telegram</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="custom-link icon-gmail" href="mailto:ivan.tyapkin78@gmail.com" target="_blank">Gmail</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title title">Briefly <span class="text-col">About Myself</span></h2>
+          <div class="about__inner">
+            <div class="about__text">
+            <p>I strive to maintain a healthy balance between my work, athletic pursuits, and personal interests. An avid runner, I’ve completed more than a dozen amateur races and continue to challenge myself with new distances. I’m passionate about travel—especially throughout Asia—where I’ve gained valuable cultural insights and adaptability. Equally important to me is the continual development of my soft skills, as I believe that building strong relationships and communicating effectively are just as critical as writing clean, efficient code.</p>
+            <p>
+              Nowdays i work remotely, which gives me more
+              flexibility and time to focus on professional development. I’m
+              currently studying Frontend Development and find it inspiring
+              because of its creative nature and endless potential for growth.
+            </p>
+            <p>
+              I believe my curiosity, adaptability, and strong self-learning
+              skills will help me become a proficient Frontend Developer.
+            </p>
+            </div>
+            <div class="about__img">
+              <img src="./img/about.jpg" alt="about">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills section-line">
+        <div class="container">
+        <h2 class="title skills__title">My Skills That <span class="text-col">Drive Results</span></h2>
+          <ul class="contacts__list section-line__list">
+            <li class="contacts__list-item">
+              <span class="custom-link icon-html">HTML</span>
+            </li>
+            <li class="contacts__list-item">
+              <span class="custom-link icon-css">CSS</span>
+            </li>
+            <li class="contacts__list-item">
+              <span class="custom-link icon-js">JS</span>
+            </li>
+            <li class="contacts__list-item">
+              <span class="custom-link icon-eng">English (B1)</span>
+            </li>
+          </ul>
+          <article class="code-sample">
+              <h3>Code examles</h3>
+              <pre>
+                <code>
+function greet(name) {
+  console.log('Hello, ' + name + '!');
+}
+greet('Ivan');
+                </code>
+              </pre>
+          </article>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <div class="container">
+          <h2 class="about__title title">your project <span class="text-col">could be here</span></h2>
+          <ul class="work-cards">
+            <li class="work-cards__item first-project">
+              <div class="work-cards__content">
+                <h3 class="work-cards__title">One page portfolio site</h3>
+                <p class="work-cards__text">The website was developed using HTML, CSS, and JavaScript, and is optimized for all devices.</p>
+                <a class="button work-cards__btn" href="https://myacorkol.github.io/gemstonasia/" target="_blank">look closer</a>
+              </div>
+              <div class="overlay"></div>
+            </li>
+            <li class="work-cards__item second-project">
+              <div class="work-cards__content">
+                <h3 class="work-cards__title">Mavik online store</h3>
+                <p class="work-cards__text">The website was developed using HTML, CSS, and JavaScript, and is optimized for all devices</p>
+                <a class="button work-cards__btn" href="https://myacorkol.github.io/mavic/" target="_blank">look closer</a>
+              </div>
+              <div class="overlay"></div>
+            </li>
+            <li class="work-cards__item third-project">
+              <div class="work-cards__content">
+                <h3 class="work-cards__title">Money game</h3>
+                <p class="work-cards__text">The game was developed based on an existing script, with added functionality, levels, lives, and all logic written in JavaScript.</p>
+                <a class="button work-cards__btn" href="https://myacorkol.github.io/random-game/" target="_blank">look closer</a>
+              </div>
+              <div class="overlay"></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="education" id="education">
+        <div class="container">
+        <h2 class="title skills__title">My <span class="text-col">Education</span></h2>
+          <ul class="contacts__list section-line__list">
+            <li class="contacts__list-item">
+              <a class="custom-link icon-rs" href="https://rs.school/" target="_blank">RS</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="custom-link icon-codevars" href="https://www.codewars.com/" target="_blank">Codewars</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="custom-link icon-freecodecamp" href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+            </li>
+            <li class="contacts__list-item">
+              <a class="custom-link icon-youtube" href="utube.com/">youtube</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+            <div class="container">
+        <div class="footer__inner">
+          <div class="footer__copyright">
+            <span>© 2025 by Ivan Tyapkin</span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a class="custom-link icon-github" href="https://github.com/Myacorkol" target="_blank">My Github</a>
+            </li>
+            <li>
+              <a class="custom-link icon-rs" href="https://rs.school/" target="_blank">RS School</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
