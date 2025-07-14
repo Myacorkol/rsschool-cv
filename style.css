@@ -168,6 +168,11 @@ section {
     transition: width 0.7s ease;
   }
 }
+.svg-link svg {
+  width: 6.5rem;
+  height: 3rem;
+  fill: var(--white);
+}
 .custom-link:hover::after {
   width: 100%;
 }
@@ -326,6 +331,11 @@ section {
 .footer__links {
   display: flex;
   gap: 2rem;
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* *** BREAKPOINTS *** */
 @media (max-width: 1320px) {
